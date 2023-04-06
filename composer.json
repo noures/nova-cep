@@ -1,0 +1,34 @@
+{
+    "name": "sereny/nova-cep",
+    "description": "A Laravel Nova Cep field.",
+    "license": "MIT",
+    "keywords": [ "laravel", "nova", "cep"],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+      {
+          "type": "composer",
+          "url": "https://nova.laravel.com"
+      }
+  ],
+    "require": {
+        "php": ">=7.3.0",
+        "illuminate/http": ">=9.0",
+        "laravel/nova": ">=4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sereny\\NovaCep\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sereny\\NovaCep\\NovaCepServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

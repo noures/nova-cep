@@ -1,6 +1,6 @@
 # Laravel Nova CEP Field
 
-A Laravel Nova field that enables automatic address data completion by CEP lookup.
+A Laravel Nova field enables automatic address data completion by CEP lookup.
 
 ## Installation
 
@@ -9,6 +9,8 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 ```bash
 composer require sereny/nova-cep
 ```
+
+![example](/.github/images/example.gif)
 
 ## Usage
 

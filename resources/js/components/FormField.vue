@@ -23,7 +23,7 @@
 
 <script>
 import { FormField, HandlesValidationErrors } from 'laravel-nova'
-import { chain, forEach } from 'lodash';
+import { chain, forEach, keys } from 'lodash';
 
 export default {
   mixins: [FormField, HandlesValidationErrors],
@@ -50,7 +50,7 @@ export default {
       }
 
       this.loading = true
-      this.errors.clear()
+      this.clear()
 
       Nova.request()
         .get(this.apiResourceUrl, {params: {value: this.value}})
@@ -76,8 +76,12 @@ export default {
 
         this.emitFieldValue(key, fieldValue)
       })
-    }
+    },
 
+    clear() {
+      this.errors.clear()
+      keys(this.field.options).forEach(key => this.emitFieldValue(key, ''))
+    }
   },
 }
 </script>

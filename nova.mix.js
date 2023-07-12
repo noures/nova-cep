@@ -4,7 +4,7 @@ const path = require('path')
 
 class NovaExtension {
   name() {
-    return 'sereny/nova-cep'
+    return 'noures/nova-cep'
   }
 
   register(name) {

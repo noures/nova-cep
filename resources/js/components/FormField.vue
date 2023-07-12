@@ -1,5 +1,6 @@
 <template>
-  <DefaultField
+
+    <DefaultField
     :field="field"
     :errors="errors"
     :show-help-text="showHelpText"
@@ -17,8 +18,8 @@
       />
       <Loader v-if="loading" width="30" height="20" />
     </template>
-
   </DefaultField>
+
 </template>
 
 <script>
@@ -31,7 +32,7 @@ export default {
   props: ['resourceName', 'resourceId', 'field'],
 
   data: () => ({
-    apiResourceUrl: '/sereny/nova-cep/cep',
+    apiResourceUrl: '/noures/nova-cep/cep',
     loading: false
   }),
 

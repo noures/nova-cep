@@ -1,6 +1,6 @@
 {
-    "name": "sereny/nova-cep",
-    "description": "A Laravel Nova Cep field.",
+    "name": "noures/nova-cep",
+    "description": "AutoComplete CEP Nova >4.",
     "license": "MIT",
     "keywords": [ "laravel", "nova", "cep"],
     "minimum-stability": "dev",
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sereny\\NovaCep\\": "src/"
+            "Noures\\NovaCep\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sereny\\NovaCep\\NovaCepServiceProvider"
+                "Noures\\NovaCep\\NovaCepServiceProvider"
             ]
         }
     },

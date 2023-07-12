@@ -5,7 +5,7 @@
  * They are protected by this tool's "Authorize" middleware.
  */
 
-namespace Sereny\NovaCep\Http\Controllers;
+namespace Noures\NovaCep\Http\Controllers;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;

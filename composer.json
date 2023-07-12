@@ -3,7 +3,7 @@
     "description": "AutoComplete CEP Nova >4.",
     "license": "MIT",
     "keywords": [ "laravel", "nova", "cep"],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": [
       {

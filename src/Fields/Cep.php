@@ -23,10 +23,11 @@ class Cep extends Field
      */
     public $meta = [
         'options' => [
-            'street' => 'logradouro',
-            'details' => 'complemento',
-            'district' => 'bairro',
-            'city' => ['localidade', 'uf']
+            'endereco' => 'logradouro',
+            'complemento' => 'complemento',
+            'bairro' => 'bairro',
+            'cidade' => 'localidade',
+            'estado' => 'uf'
         ]
     ];
 }

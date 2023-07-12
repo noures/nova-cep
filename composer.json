@@ -5,6 +5,7 @@
     "keywords": [ "laravel", "nova", "cep"],
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "version": "1.0.1",
     "repositories": [
       {
           "type": "composer",
